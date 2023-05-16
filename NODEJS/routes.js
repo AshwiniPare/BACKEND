@@ -1,3 +1,6 @@
+//this file is used only in node js. not for express js
+
+
 const fs = require('fs');
 const requestHandler = (req, res) => {
 if(req.url === '/') {
