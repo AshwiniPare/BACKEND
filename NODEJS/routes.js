@@ -10,7 +10,6 @@ if(req.url === '/') {
         res.write(`<body>${data}<form action="/message" method="POST"><input type="text" name="message"><button type="submit">Send</button></form></body>`);
         res.write(`</html>`);
         return res.end();
-
     })
 }
 
